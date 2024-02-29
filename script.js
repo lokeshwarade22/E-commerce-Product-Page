@@ -1,8 +1,6 @@
 'use strict';
 
-/**
- * navbar toggle
- */
+
 
 const overlay = document.querySelector("[data-overlay]");
 const navOpenBtn = document.querySelector("[data-nav-open-btn]");
@@ -20,9 +18,6 @@ for (let i = 0; i < navElemArr.length; i++) {
 
 
 
-/**
- * add active class on header when scrolled 200px from top
- */
 
 const header = document.querySelector("[data-header]");
 
